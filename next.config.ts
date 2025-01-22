@@ -4,11 +4,11 @@ const nextConfig = {
     return [
       {
         source: "/blog",
-        destination: `https://${process.env.NEXT_PUBLIC_BLOG_URL}`,
+        destination: `https://micro-frontend-multi-zones-blog-app.vercel.app/blog`,
       },
       {
         source: "/blog/:path*",
-        destination: `https://${process.env.NEXT_PUBLIC_BLOG_URL}/:path*`,
+        destination: `https://micro-frontend-multi-zones-blog-app.vercel.app/blog/:path*`,
       },
     ]
   },
